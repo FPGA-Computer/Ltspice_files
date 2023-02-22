@@ -5,12 +5,14 @@ It is a program that rearrange LTSpice macro model files such that the particula
 
 rearrange.exe <parameter> <infile> <outfile>
 
-e.g. rearrange bv standard.dio newstandard.dio
+##### e.g. rearrange bv standard.dio newstandard.dio
 
 This moves the bv parameters to the front from file "standard.dio" and writes it to "newstandard.dio".
 
 ![alt text](rearrange\screenshot.jpg)
 LTSpice models are under C:\Users\<user>\AppData\Local\LTspice\lib\cmp
+Once the file is replace, the parameter bv shows up in front.
+![alt text](./rearrange/screenshot1.jpg)
 
 c code is compiled using Pellec C compiler.
 
